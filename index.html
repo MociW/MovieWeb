@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow p-3">
+        <div class="container">
+            <a class="navbar-brand fw-bolder padding-bottom" href="#">Movieku</a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active brand" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Series List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ongoing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Advaced Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fan Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bookmark</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DCMA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Broken Link</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search">
+            </div>
+    </nav>
+    <!----->
+    <div class="container mt-2">
+        <h1 class="SearchTitle navbar-dark"></h1>
+    </div>
+
+    <div class=" container mt-4">
+        <div class="row movie-container">
+        </div>
+    </div>
+
+
+    <!-- Button trigger modal -->
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/7fcc8846d1.js" crossorigin="anonymous"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
